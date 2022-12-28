@@ -16,6 +16,7 @@
 
         clsInsan.Tanis();
 
+
         Console.ReadKey();
 
     }
