@@ -13,7 +13,6 @@ namespace OOPExercise
             Name = name;
             Surname = surname;
 
-
         }
 
         public string Name { get; set; }
@@ -23,11 +22,7 @@ namespace OOPExercise
         public int Yas { get; set; } = 27;
 
 
-        public void Tanis()
-        {
-            Console.WriteLine("Ben {0} {1} ... Boyum {2} cm, Kilom {3} kg, Yaşım {4} 'dir", Name, Surname, Boy, Kilo, Yas);
-
-        }
+        public void Tanis()=>Console.WriteLine("Ben {0} {1} ... Boyum {2} cm, Kilom {3} kg, Yaşım {4} 'dir", Name, Surname, Boy, Kilo, Yas);
 
     }
 }
